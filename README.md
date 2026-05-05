@@ -44,9 +44,9 @@ sales-dashboard-sql-powerbi/
 │   ├── 01_data_cleaning.sql           # Data validation, cleaning, star schema
 │   └── 02_business_analysis_queries.sql # 10 KPI queries for dashboard
 └── images/
-![KPI Summary](kpi_summary.png)
-![Executive Summary Dashboard](dashboard_executive_summary.png)
-![Product Customer Dashboard](dashboard_product_customer.png)
+    ├── kpi_summary.png                # KPI summary card
+    ├── dashboard_executive_summary.png # Executive dashboard
+    └── dashboard_product_customer.png  # Product & customer analysis
 ```
 
 ---
