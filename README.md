@@ -4,7 +4,7 @@
 
 This project analyzes **5,000 e-commerce transactions** across 2023-2024 to uncover revenue trends, product performance, customer behavior, and operational insights. I cleaned and transformed raw sales data using **SQL**, created a **star schema** data model, and built interactive **Power BI dashboards** to enable data-driven decision-making for leadership teams.
 
-![KPI Summary](images/kpi_summary.png)
+![KPI Summary](kpi_summary.png)
 
 ---
 
@@ -37,17 +37,13 @@ Previously, these answers required manual Excel reports that took **2-3 days to 
 ```
 sales-dashboard-sql-powerbi/
 │
-├── README.md                          # Project documentation (this file)
-├── data/
-│   └── ecommerce_sales_2023_2024.csv  # Raw dataset (5,000 records)
-├── sql/
-│   ├── 01_data_cleaning.sql           # Data validation, cleaning, star schema
-│   └── 02_business_analysis_queries.sql # 10 KPI queries for dashboard
-└──images/
-    ├── kpi_summary.png                # KPI summary card
-    ├── dashboard_executive_summary.png # Executive dashboard
-    └── dashboard_product_customer.png  # Product & customer analysis
-
+├── README.md                            # Project documentation (this file)
+├── ecommerce_sales_2023_2024.csv        # Raw dataset (5,000 records)
+├── 01_data_cleaning.sql                 # Data validation, cleaning, star schema
+├── 02_business_analysis_queries.sql     # 10 KPI queries for dashboard
+├── kpi_summary.png                      # KPI summary card
+├── dashboard_executive_summary.png      # Executive dashboard
+└── dashboard_product_customer.png       # Product & customer analysis
 ```
 
 ---
@@ -92,10 +88,10 @@ I designed a **star schema** optimized for Power BI performance:
 ## Dashboard Screenshots
 
 ### Executive Summary
-![Executive Summary Dashboard](images/dashboard_executive_summary.png)
+![Executive Summary Dashboard](dashboard_executive_summary.png)
 
 ### Product & Customer Analysis
-![Product Customer Dashboard](images/dashboard_product_customer.png)
+![Product Customer Dashboard](dashboard_product_customer.png)
 
 ---
 
@@ -136,5 +132,5 @@ Based on the analysis, I recommended the following to stakeholders:
 
 **Sai Pasupuleti** — Business Analyst with 3+ years of experience in requirements gathering, Power BI dashboard development, SQL data analysis, and Python automation.
 
-📧 pradeepsai.pasupuleti@gmail.com  
+📧 pradeepsai.pasupuleti@gmail.com
 🔗 [LinkedIn](https://linkedin.com/in/saipasupuleti12)
